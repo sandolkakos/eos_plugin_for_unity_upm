@@ -230,7 +230,7 @@ using Steamworks;
             get
             {
 #if !STEAMWORKS_MODULE
-                Debug.LogError("Steamworks.NET plugin (version 20.2.0) not installed. Install through the package manager from the git URL https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net");
+                Debug.LogError("Steamworks.NET plugin (version 20.2.0 or higher) not installed. Install through the package manager from the git URL https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net");
 #endif
                 if (s_instance == null)
                 {
